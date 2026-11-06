@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="SNMP.Tests/Utils.SNMP.Tests.csproj" />
+  <Project Path="SNMP/Utils.SNMP.csproj" />
+</Solution>
