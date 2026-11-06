@@ -1,4 +1,4 @@
-# Skyline.DataMiner.Utils.SafeConverters
+# Skyline.DataMiner.Utils.SNMP
 
 ## Projects
 
