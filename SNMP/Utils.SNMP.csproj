@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<TargetFramework>net48</TargetFramework>
 		<ImplicitUsings>disable</ImplicitUsings>
@@ -17,7 +17,11 @@
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<Authors>SkylineCommunications</Authors>
 		<Company>Skyline Communications</Company>
-		<Description>Library containing logic that relates to SNMP.</Description>
+		<Description>
+			<![CDATA[Library containing logic that relates to SNMP.
+[Minimum Required DataMiner: 10.1.0]
+Code Entry Point: SnmpDeltaHelper.UpdateRateDeltaTracking(protocol, tablePid: 1000, CalculationMethod.Accurate)]]>
+		</Description>
 		<RepositoryType>git</RepositoryType>
 		<RepositoryUrl>https://github.com/SkylineCommunications/Skyline.DataMiner.Utils.SNMP</RepositoryUrl>
 	</PropertyGroup>
